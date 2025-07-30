@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.YourCompany.SawyerVR"
+    android:installLocation="auto"
+    android:versionCode="2"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="32"
+        android:targetSdkVersion="32" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="http" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="https" />
+        </intent>
+
+        <package android:name="com.google.android.gms" />
+        <package android:name="com.android.vending" />
+    </queries>
+    <!-- Requirements -->
+    <uses-feature
+        android:glEsVersion="0x00030000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <!-- Supported texture compression formats (cooked) -->
+    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+
+    <uses-feature
+        android:name="android.hardware.vr.headtracking"
+        __line="183"
+        android:required="true"
+        android:version="1" />
+
+    <uses-permission
+        android:name="com.oculus.permission.EYE_TRACKING"
+        __line="209" />
+
+    <uses-feature
+        android:name="oculus.software.eye_tracking"
+        __line="210"
+        android:required="false" />
+
+    <uses-permission
+        android:name="com.oculus.permission.BODY_TRACKING"
+        __line="217" />
+
+    <uses-feature
+        android:name="com.oculus.software.body_tracking"
+        __line="218"
+        android:required="true" />
+
+    <uses-permission
+        android:name="com.oculus.permission.FACE_TRACKING"
+        __line="225" />
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        __line="226" />
+
+    <uses-feature
+        android:name="oculus.software.face_tracking"
+        __line="227"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        __line="281" />
+
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE"
+        __line="66" />
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+        __line="67" />
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS"
+        __line="68" />
+    <!-- Application Definition -->
+    <application
+        android:name="com.epicgames.unreal.GameApplication"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="true"
+        android:hardwareAccelerated="true"
+        android:hasCode="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true" >
+        <activity
+            android:name="com.epicgames.unreal.GameActivity"
+            android:configChanges="mcc|mnc|uiMode|density|screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|keyboard|navigation|touchscreen|locale|fontScale|layoutDirection"
+            android:debuggable="true"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:resizeableActivity="false"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="Unreal" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category
+                    android:name="com.oculus.intent.category.VR"
+                    __ExcludeFromAFS="true" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.oculus.vr.focusaware"
+                __ExcludeFromAFS="true"
+                android:value="true" />
+        </activity>
+        <activity android:name="com.YourCompany.SawyerVR.DownloaderActivity" />
+
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.EngineVersion"
+            android:value="5.4.4" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.EngineBranch"
+            android:value="++UE5+Release-5.4" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.ProjectVersion"
+            android:value="1.0.0.0" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.DepthBufferPreference"
+            android:value="0" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bPackageDataInsideApk"
+            android:value="true" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bVerifyOBBOnStartUp"
+            android:value="false" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bShouldHideUI"
+            android:value="true" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.ProjectName"
+            android:value="SawyerVR" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.AppType"
+            android:value="" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bHasOBBFiles"
+            android:value="true" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.BuildConfiguration"
+            android:value="Development" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.CookedFlavors"
+            android:value="ASTC" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bValidateTextureFormats"
+            android:value="true" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bUseExternalFilesDir"
+            android:value="true" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bPublicLogFiles"
+            android:value="false" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bUseDisplayCutout"
+            android:value="false" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bAllowIMU"
+            android:value="false" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.bSupportsVulkan"
+            android:value="true" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.PropagateAlpha"
+            android:value="0" />
+        <meta-data
+            android:name="com.epicgames.unreal.GameActivity.StartupPermissions"
+            android:value="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <meta-data
+            android:name="android.supports_size_changes"
+            android:value="false" />
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <service
+            android:name="com.epicgames.unreal.psoservices.OGLProgramService"
+            android:process=":psoprogramservice" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.OGLProgramService1"
+            android:process=":psoprogramservice1" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.OGLProgramService2"
+            android:process=":psoprogramservice2" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.OGLProgramService3"
+            android:process=":psoprogramservice3" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.OGLProgramService4"
+            android:process=":psoprogramservice4" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.OGLProgramService5"
+            android:process=":psoprogramservice5" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.OGLProgramService6"
+            android:process=":psoprogramservice6" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.OGLProgramService7"
+            android:process=":psoprogramservice7" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.VulkanProgramService"
+            android:process=":psoprogramservice" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.VulkanProgramService1"
+            android:process=":psoprogramservice1" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.VulkanProgramService2"
+            android:process=":psoprogramservice2" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.VulkanProgramService3"
+            android:process=":psoprogramservice3" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.VulkanProgramService4"
+            android:process=":psoprogramservice4" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.VulkanProgramService5"
+            android:process=":psoprogramservice5" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.VulkanProgramService6"
+            android:process=":psoprogramservice6" />
+        <service
+            android:name="com.epicgames.unreal.psoservices.VulkanProgramService7"
+            android:process=":psoprogramservice7" />
+        <service android:name="com.YourCompany.SawyerVR.OBBDownloaderService" />
+
+        <receiver
+            android:name="com.YourCompany.SawyerVR.AlarmReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="com.epicgames.unreal.LocalNotificationReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="com.epicgames.unreal.CellularReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="com.epicgames.unreal.MulticastBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.10" />
+        <meta-data
+            android:name="com.oculus.extlib"
+            android:value="true" />
+        <meta-data
+            android:name="com.oculus.supportedDevices"
+            android:value="quest|quest2|questpro|quest3|questpro" />
+        <meta-data
+            android:name="com.oculus.ossplash.background"
+            android:value="black" />
+        <meta-data
+            android:name="com.oculus.ossplash.colorspace"
+            android:value="!P3" />
+        <meta-data
+            android:name="com.oculus.telemetry.project_guid"
+            android:value="57F472EE410C20C5A8D917BE8F769917" />
+        <meta-data
+            android:name="com.oculus.foveation.tile_turn_off"
+            android:value="true" />
+
+        <service
+            android:name="com.epicgames.unreal.RemoteFileManagerService"
+            __line="71"
+            android:exported="true"
+            android:foregroundServiceType="dataSync" />
+
+        <activity
+            android:name="com.epicgames.unreal.RemoteFileManagerActivity"
+            __line="72"
+            android:exported="true"
+            android:screenOrientation="sensor"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter __line="73" >
+                <action
+                    android:name="com.epicgames.unreal.RemoteFileManager.intent.COMMAND2"
+                    __line="74" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.epicgames.unreal.RemoteFileManager.bAllowNetworkConnection"
+            __line="85"
+            android:value="true" />
+        <meta-data
+            android:name="com.oculus.ossplash"
+            __ExcludeFromAFS="true"
+            android:value="true" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
+
+        <provider
+            android:name="com.google.android.gms.games.provider.PlayGamesInitProvider"
+            android:authorities="com.YourCompany.SawyerVR.playgamesinitprovider"
+            android:exported="false"
+            android:initOrder="99" />
+
+        <activity
+            android:name="com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Games.Transparent" />
+
+        <meta-data
+            android:name="com.google.android.gms.games.version"
+            android:value="@string/play_games_sdk_version" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.YourCompany.SawyerVR.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

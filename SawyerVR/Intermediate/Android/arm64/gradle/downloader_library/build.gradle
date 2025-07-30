@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+android {
+	ndkPath = System.getenv("NDKROOT")
+	compileSdkVersion = COMPILE_SDK_VERSION.toInteger()
+	buildToolsVersion = BUILD_TOOLS_VERSION
+	defaultConfig {
+		versionCode 2
+		versionName "1.1"
+		minSdkVersion = 4
+		targetSdkVersion = 15
+	}
+}
+android {
+    namespace="com.android.vending.expansion.downloader"
+}

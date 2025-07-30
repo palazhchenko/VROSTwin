@@ -1,0 +1,6 @@
+android {
+    namespace="com.google.vr.sdk.samples.permission"
+}
+dependencies {
+	implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+}

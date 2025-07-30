@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\main\\Unreal\\SawyerControl\\Intermediate\\Source\\SawyerControl.Build.cs",
+		"C:\\main\\Unreal\\SawyerControl\\Intermediate\\Source\\SawyerControl.Target.cs",
+		"C:\\main\\Unreal\\SawyerControl\\Intermediate\\Source\\SawyerControlClient.Target.cs",
+		"C:\\main\\Unreal\\SawyerControl\\Intermediate\\Source\\SawyerControlEditor.Target.cs",
+		"C:\\main\\Unreal\\SawyerControl\\Intermediate\\Source\\SawyerControlServer.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

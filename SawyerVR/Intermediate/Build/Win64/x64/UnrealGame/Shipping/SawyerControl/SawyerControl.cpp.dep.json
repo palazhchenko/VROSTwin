@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\main\\unreal\\sawyercontrol\\intermediate\\source\\sawyercontrol.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\main\\unreal\\sawyercontrol\\intermediate\\build\\win64\\x64\\sawyercontrol\\shipping\\core\\sharedpch.core.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\main\\unreal\\sawyercontrol\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\sawyercontrol\\definitions.sawyercontrol.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

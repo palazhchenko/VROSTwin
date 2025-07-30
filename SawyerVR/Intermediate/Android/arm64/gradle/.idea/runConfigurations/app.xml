@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+	<configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+		<module name="app.app.main" />
+		<option name="DEBUGGER_TYPE" value="Hybrid" />
+		<Hybrid>
+			<startup_commands startup_commands_attr="command script import &quot;C:\Program Files\Epic Games\UE_5.4\Engine\Extras\LLDBDataFormatters\UEDataFormatters_2ByteChars.py&quot;" />
+		</Hybrid>
+	</configuration>
+</component>

@@ -1,0 +1,852 @@
+-- Merging decision tree log ---
+manifest
+ADDED from Z:\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-114:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:2:1-29:12
+MERGED from [:downloader_library] Z:\downloader_library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_library] Z:\permission_library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\eac3973f25233c102521c06b2f987e0f\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\30891a14132f501b0723920f18972b1c\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\5746758fe4fe6d736fbc196377e5d59a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\74eba0adaacfc1f267316044ba3fb635\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Zheny\.gradle\caches\transforms-3\367282022f9d7e1276c2097aaa9ba6aa\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\f5bcbc293cb5567f794e3dbf7fc28024\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\7fae42d38903fc3cc638a896827515eb\transformed\jetified-play-services-drive-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\2cf03844490b7518ec0cc15b7be6ecd0\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\44d66019629001601723e3e8e6792438\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\c493200c9b92294ea8ce20437c4acbe2\transformed\fragment-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\5eff1425e4617f572a315b3a04b185a4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\bf2a6d46c92d2b1b015ce44f75d834ab\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\f4e7914e58ba093567760f9d22f3626d\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\9bfe4cd74c7605dc19710fff72651570\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\f967ef6252e4ec79b8a489b7b97a4a74\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\abedd8388bdbd55803e370bace33339f\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\5d6dbb7a2526cb46a310f1fa772a8328\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\c17573ade799759c56baf884a28f8de6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\064f6efcf72e45025c96c41bb0313fb3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\3fa6512a9d4dee4adc600ab35404b8df\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\bb581f0f45aa35f890c6008351162320\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\62c5e7261b28a421717026579decefb0\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\859180bb677d07452d44209a6e122258\transformed\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\788b2866ce1062b2ae316790421045ad\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\dc51215a0ae0eec1cc8d2679f7af5fd0\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0] C:\Users\Zheny\.gradle\caches\transforms-3\87c712ceb280b89563e287f590257de7\transformed\core-1.3.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\2365384ad980976d11b4bd9d48d00571\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\fec7b5094424e25e39c91a00aed3d59c\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\6267c6992e2233c007652c3911cd20a6\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\1cc85102e7151d173892b0265fd52a81\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\e5997fabb38117f197761b06c6e6a597\transformed\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\7bd9c161e6b92cb2ac16bb70e4dae038\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\94c1e08774be1a91ac7aa4bf2cb72cb3\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\cfee952266597011e350226a145c4ff0\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\7fe601d2895f83772b336b15683697ae\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\7a1ff5a23d45e8270cb10429ea4d29f7\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\dc95db927df936e003ea23f2b843af5c\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\4a128805ae54552b7183634231e39ff5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\ae4109ec1e873f2074e4c3a60211a759\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\fe726d578f90e61f945e51ad06a99ee0\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-114:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-114:12
+	package
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:1-114:12
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:172-197
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:70-116
+	xmlns:android
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:148-171
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:117-147
+queries
+ADDED from Z:\app\src\main\AndroidManifest.xml:2:3-13:13
+MERGED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:7:5-10:15
+MERGED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:7:5-10:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:http
+ADDED from Z:\app\src\main\AndroidManifest.xml:3:5-7:14
+action#android.intent.action.VIEW
+ADDED from Z:\app\src\main\AndroidManifest.xml:4:7-59
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:15-56
+category#android.intent.category.BROWSABLE
+ADDED from Z:\app\src\main\AndroidManifest.xml:5:7-68
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:5:17-65
+data
+ADDED from Z:\app\src\main\AndroidManifest.xml:6:7-37
+	android:scheme
+		ADDED from Z:\app\src\main\AndroidManifest.xml:6:13-34
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from Z:\app\src\main\AndroidManifest.xml:8:5-12:14
+application
+ADDED from Z:\app\src\main\AndroidManifest.xml:15:3-90:17
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:12:5-27:19
+MERGED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:12:5-27:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\5746758fe4fe6d736fbc196377e5d59a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\5746758fe4fe6d736fbc196377e5d59a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\f5bcbc293cb5567f794e3dbf7fc28024\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\f5bcbc293cb5567f794e3dbf7fc28024\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\7fae42d38903fc3cc638a896827515eb\transformed\jetified-play-services-drive-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\7fae42d38903fc3cc638a896827515eb\transformed\jetified-play-services-drive-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\2cf03844490b7518ec0cc15b7be6ecd0\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\2cf03844490b7518ec0cc15b7be6ecd0\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.3.0] C:\Users\Zheny\.gradle\caches\transforms-3\87c712ceb280b89563e287f590257de7\transformed\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] C:\Users\Zheny\.gradle\caches\transforms-3\87c712ceb280b89563e287f590257de7\transformed\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\7a1ff5a23d45e8270cb10429ea4d29f7\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\7a1ff5a23d45e8270cb10429ea4d29f7\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:199-242
+	android:extractNativeLibs
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:114-146
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] C:\Users\Zheny\.gradle\caches\transforms-3\87c712ceb280b89563e287f590257de7\transformed\core-1.3.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:16-48
+	android:hasCode
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:243-265
+	android:hardwareAccelerated
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:79-113
+	android:icon
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:49-78
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:147-198
+activity#com.epicgames.unreal.GameActivity
+ADDED from Z:\app\src\main\AndroidManifest.xml:16:5-24:16
+	android:screenOrientation
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:435-478
+	android:label
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:88-120
+	android:launchMode
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:403-434
+	android:exported
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:64-87
+	android:debuggable
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:479-504
+	android:resizeableActivity
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:368-402
+	android:configChanges
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:186-367
+	android:theme
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:121-185
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:15-63
+meta-data#android.app.lib_name
+ADDED from Z:\app\src\main\AndroidManifest.xml:17:7-79
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:17:54-76
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:17:18-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:com.oculus.intent.category.VR
+ADDED from Z:\app\src\main\AndroidManifest.xml:18:7-22:23
+action#android.intent.action.MAIN
+ADDED from Z:\app\src\main\AndroidManifest.xml:19:9-61
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:19:17-58
+category#android.intent.category.LAUNCHER
+ADDED from Z:\app\src\main\AndroidManifest.xml:20:9-69
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:20:19-66
+category#com.oculus.intent.category.VR
+ADDED from Z:\app\src\main\AndroidManifest.xml:21:9-90
+	__ExcludeFromAFS
+		ADDED from Z:\app\src\main\AndroidManifest.xml:21:64-87
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:21:19-63
+meta-data#com.oculus.vr.focusaware
+ADDED from Z:\app\src\main\AndroidManifest.xml:23:7-105
+	__ExcludeFromAFS
+		ADDED from Z:\app\src\main\AndroidManifest.xml:23:79-102
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:23:58-78
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:23:18-57
+activity#com.YourCompany.SawyerVR.DownloaderActivity
+ADDED from Z:\app\src\main\AndroidManifest.xml:25:5-52
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:25:15-49
+meta-data#com.epicgames.unreal.GameActivity.EngineVersion
+ADDED from Z:\app\src\main\AndroidManifest.xml:26:5-103
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:26:79-100
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:26:16-78
+meta-data#com.epicgames.unreal.GameActivity.EngineBranch
+ADDED from Z:\app\src\main\AndroidManifest.xml:27:5-114
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:27:78-111
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:27:16-77
+meta-data#com.epicgames.unreal.GameActivity.ProjectVersion
+ADDED from Z:\app\src\main\AndroidManifest.xml:28:5-106
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:28:80-103
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:28:16-79
+meta-data#com.epicgames.unreal.GameActivity.DepthBufferPreference
+ADDED from Z:\app\src\main\AndroidManifest.xml:29:5-107
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:29:87-104
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:29:16-86
+meta-data#com.epicgames.unreal.GameActivity.bPackageDataInsideApk
+ADDED from Z:\app\src\main\AndroidManifest.xml:30:5-110
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:30:87-107
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:30:16-86
+meta-data#com.epicgames.unreal.GameActivity.bVerifyOBBOnStartUp
+ADDED from Z:\app\src\main\AndroidManifest.xml:31:5-109
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:31:85-106
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:31:16-84
+meta-data#com.epicgames.unreal.GameActivity.bShouldHideUI
+ADDED from Z:\app\src\main\AndroidManifest.xml:32:5-102
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:32:79-99
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:32:16-78
+meta-data#com.epicgames.unreal.GameActivity.ProjectName
+ADDED from Z:\app\src\main\AndroidManifest.xml:33:5-104
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:33:77-101
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:33:16-76
+meta-data#com.epicgames.unreal.GameActivity.AppType
+ADDED from Z:\app\src\main\AndroidManifest.xml:34:5-92
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:34:73-89
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:34:16-72
+meta-data#com.epicgames.unreal.GameActivity.bHasOBBFiles
+ADDED from Z:\app\src\main\AndroidManifest.xml:35:5-101
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:35:78-98
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:35:16-77
+meta-data#com.epicgames.unreal.GameActivity.BuildConfiguration
+ADDED from Z:\app\src\main\AndroidManifest.xml:36:5-114
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:36:84-111
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:36:16-83
+meta-data#com.epicgames.unreal.GameActivity.CookedFlavors
+ADDED from Z:\app\src\main\AndroidManifest.xml:37:5-102
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:37:79-99
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:37:16-78
+meta-data#com.epicgames.unreal.GameActivity.bValidateTextureFormats
+ADDED from Z:\app\src\main\AndroidManifest.xml:38:5-112
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:38:89-109
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:38:16-88
+meta-data#com.epicgames.unreal.GameActivity.bUseExternalFilesDir
+ADDED from Z:\app\src\main\AndroidManifest.xml:39:5-109
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:39:86-106
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:39:16-85
+meta-data#com.epicgames.unreal.GameActivity.bPublicLogFiles
+ADDED from Z:\app\src\main\AndroidManifest.xml:40:5-105
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:40:81-102
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:40:16-80
+meta-data#com.epicgames.unreal.GameActivity.bUseDisplayCutout
+ADDED from Z:\app\src\main\AndroidManifest.xml:41:5-107
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:41:83-104
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:41:16-82
+meta-data#com.epicgames.unreal.GameActivity.bAllowIMU
+ADDED from Z:\app\src\main\AndroidManifest.xml:42:5-99
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:42:75-96
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:42:16-74
+meta-data#com.epicgames.unreal.GameActivity.bSupportsVulkan
+ADDED from Z:\app\src\main\AndroidManifest.xml:43:5-104
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:43:81-101
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:43:16-80
+meta-data#com.epicgames.unreal.GameActivity.PropagateAlpha
+ADDED from Z:\app\src\main\AndroidManifest.xml:44:5-100
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:44:80-97
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:44:16-79
+meta-data#com.epicgames.unreal.GameActivity.StartupPermissions
+ADDED from Z:\app\src\main\AndroidManifest.xml:45:5-144
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:45:84-141
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:45:16-83
+meta-data#android.supports_size_changes
+ADDED from Z:\app\src\main\AndroidManifest.xml:46:5-85
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:46:61-82
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:46:16-60
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from Z:\app\src\main\AndroidManifest.xml:47:5-100
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:47:67-97
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:47:16-66
+meta-data#com.google.android.gms.version
+ADDED from Z:\app\src\main\AndroidManifest.xml:48:5-118
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:48:62-115
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:48:16-61
+activity#com.google.android.gms.ads.AdActivity
+ADDED from Z:\app\src\main\AndroidManifest.xml:49:5-180
+	android:configChanges
+		ADDED from Z:\app\src\main\AndroidManifest.xml:49:68-177
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:49:15-67
+service#com.epicgames.unreal.psoservices.OGLProgramService
+ADDED from Z:\app\src\main\AndroidManifest.xml:50:5-119
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:50:80-116
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:50:14-79
+service#com.epicgames.unreal.psoservices.OGLProgramService1
+ADDED from Z:\app\src\main\AndroidManifest.xml:51:5-121
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:51:81-118
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:51:14-80
+service#com.epicgames.unreal.psoservices.OGLProgramService2
+ADDED from Z:\app\src\main\AndroidManifest.xml:52:5-121
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:52:81-118
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:52:14-80
+service#com.epicgames.unreal.psoservices.OGLProgramService3
+ADDED from Z:\app\src\main\AndroidManifest.xml:53:5-121
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:53:81-118
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:53:14-80
+service#com.epicgames.unreal.psoservices.OGLProgramService4
+ADDED from Z:\app\src\main\AndroidManifest.xml:54:5-121
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:54:81-118
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:54:14-80
+service#com.epicgames.unreal.psoservices.OGLProgramService5
+ADDED from Z:\app\src\main\AndroidManifest.xml:55:5-121
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:55:81-118
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:55:14-80
+service#com.epicgames.unreal.psoservices.OGLProgramService6
+ADDED from Z:\app\src\main\AndroidManifest.xml:56:5-121
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:56:81-118
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:56:14-80
+service#com.epicgames.unreal.psoservices.OGLProgramService7
+ADDED from Z:\app\src\main\AndroidManifest.xml:57:5-121
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:57:81-118
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:57:14-80
+service#com.epicgames.unreal.psoservices.VulkanProgramService
+ADDED from Z:\app\src\main\AndroidManifest.xml:58:5-122
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:58:83-119
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:58:14-82
+service#com.epicgames.unreal.psoservices.VulkanProgramService1
+ADDED from Z:\app\src\main\AndroidManifest.xml:59:5-124
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:59:84-121
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:59:14-83
+service#com.epicgames.unreal.psoservices.VulkanProgramService2
+ADDED from Z:\app\src\main\AndroidManifest.xml:60:5-124
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:60:84-121
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:60:14-83
+service#com.epicgames.unreal.psoservices.VulkanProgramService3
+ADDED from Z:\app\src\main\AndroidManifest.xml:61:5-124
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:61:84-121
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:61:14-83
+service#com.epicgames.unreal.psoservices.VulkanProgramService4
+ADDED from Z:\app\src\main\AndroidManifest.xml:62:5-124
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:62:84-121
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:62:14-83
+service#com.epicgames.unreal.psoservices.VulkanProgramService5
+ADDED from Z:\app\src\main\AndroidManifest.xml:63:5-124
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:63:84-121
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:63:14-83
+service#com.epicgames.unreal.psoservices.VulkanProgramService6
+ADDED from Z:\app\src\main\AndroidManifest.xml:64:5-124
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:64:84-121
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:64:14-83
+service#com.epicgames.unreal.psoservices.VulkanProgramService7
+ADDED from Z:\app\src\main\AndroidManifest.xml:65:5-124
+	android:process
+		ADDED from Z:\app\src\main\AndroidManifest.xml:65:84-121
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:65:14-83
+service#com.YourCompany.SawyerVR.OBBDownloaderService
+ADDED from Z:\app\src\main\AndroidManifest.xml:66:5-52
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:66:14-49
+receiver#com.YourCompany.SawyerVR.AlarmReceiver
+ADDED from Z:\app\src\main\AndroidManifest.xml:67:5-71
+	android:exported
+		ADDED from Z:\app\src\main\AndroidManifest.xml:67:44-68
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:67:15-43
+receiver#com.epicgames.unreal.LocalNotificationReceiver
+ADDED from Z:\app\src\main\AndroidManifest.xml:68:5-104
+	android:exported
+		ADDED from Z:\app\src\main\AndroidManifest.xml:68:77-101
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:68:15-76
+receiver#com.epicgames.unreal.CellularReceiver
+ADDED from Z:\app\src\main\AndroidManifest.xml:69:5-95
+	android:exported
+		ADDED from Z:\app\src\main\AndroidManifest.xml:69:68-92
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:69:15-67
+receiver#com.epicgames.unreal.MulticastBroadcastReceiver
+ADDED from Z:\app\src\main\AndroidManifest.xml:70:5-74:16
+	android:exported
+		ADDED from Z:\app\src\main\AndroidManifest.xml:70:78-101
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:70:15-77
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from Z:\app\src\main\AndroidManifest.xml:71:7-73:23
+action#com.android.vending.INSTALL_REFERRER
+ADDED from Z:\app\src\main\AndroidManifest.xml:72:9-71
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:72:17-68
+meta-data#android.max_aspect
+ADDED from Z:\app\src\main\AndroidManifest.xml:75:5-73
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:75:50-70
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:75:16-49
+meta-data#com.oculus.extlib
+ADDED from Z:\app\src\main\AndroidManifest.xml:76:5-72
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:76:49-69
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:76:16-48
+meta-data#com.oculus.supportedDevices
+ADDED from Z:\app\src\main\AndroidManifest.xml:77:5-115
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:77:59-112
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:77:16-58
+meta-data#com.oculus.ossplash.background
+ADDED from Z:\app\src\main\AndroidManifest.xml:78:5-86
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:78:62-83
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:78:16-61
+meta-data#com.oculus.ossplash.colorspace
+ADDED from Z:\app\src\main\AndroidManifest.xml:79:5-84
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:79:62-81
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:79:16-61
+meta-data#com.oculus.telemetry.project_guid
+ADDED from Z:\app\src\main\AndroidManifest.xml:80:5-116
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:80:65-113
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:80:16-64
+meta-data#com.oculus.foveation.tile_turn_off
+ADDED from Z:\app\src\main\AndroidManifest.xml:81:5-89
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:81:66-86
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:81:16-65
+service#com.epicgames.unreal.RemoteFileManagerService
+ADDED from Z:\app\src\main\AndroidManifest.xml:82:5-154
+	android:exported
+		ADDED from Z:\app\src\main\AndroidManifest.xml:82:116-139
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:82:140-151
+	android:foregroundServiceType
+		ADDED from Z:\app\src\main\AndroidManifest.xml:82:75-115
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:82:14-74
+activity#com.epicgames.unreal.RemoteFileManagerActivity
+ADDED from Z:\app\src\main\AndroidManifest.xml:83:5-87:16
+	android:screenOrientation
+		ADDED from Z:\app\src\main\AndroidManifest.xml:83:101-135
+	android:exported
+		ADDED from Z:\app\src\main\AndroidManifest.xml:83:77-100
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:83:183-194
+	android:theme
+		ADDED from Z:\app\src\main\AndroidManifest.xml:83:136-182
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:83:15-76
+intent-filter#action:name:com.epicgames.unreal.RemoteFileManager.intent.COMMAND2
+ADDED from Z:\app\src\main\AndroidManifest.xml:84:7-86:23
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:84:22-33
+action#com.epicgames.unreal.RemoteFileManager.intent.COMMAND2
+ADDED from Z:\app\src\main\AndroidManifest.xml:85:9-101
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:85:87-98
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:85:17-86
+meta-data#com.epicgames.unreal.RemoteFileManager.bAllowNetworkConnection
+ADDED from Z:\app\src\main\AndroidManifest.xml:88:5-129
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:88:115-126
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:88:94-114
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:88:16-93
+meta-data#com.oculus.ossplash
+ADDED from Z:\app\src\main\AndroidManifest.xml:89:5-98
+	__ExcludeFromAFS
+		ADDED from Z:\app\src\main\AndroidManifest.xml:89:72-95
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:89:51-71
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:89:16-50
+uses-feature#0x00030000
+ADDED from Z:\app\src\main\AndroidManifest.xml:92:3-76
+	android:glEsVersion
+		ADDED from Z:\app\src\main\AndroidManifest.xml:92:17-49
+	android:required
+		ADDED from Z:\app\src\main\AndroidManifest.xml:92:50-73
+uses-permission#android.permission.INTERNET
+ADDED from Z:\app\src\main\AndroidManifest.xml:93:3-65
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:93:20-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from Z:\app\src\main\AndroidManifest.xml:94:3-79
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:94:20-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from Z:\app\src\main\AndroidManifest.xml:95:3-77
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:95:20-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from Z:\app\src\main\AndroidManifest.xml:96:3-66
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:96:20-63
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from Z:\app\src\main\AndroidManifest.xml:97:3-71
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:97:20-68
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from Z:\app\src\main\AndroidManifest.xml:98:3-74
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:98:20-71
+uses-permission#com.android.vending.BILLING
+ADDED from Z:\app\src\main\AndroidManifest.xml:99:3-65
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:99:20-62
+supports-gl-texture#GL_KHR_texture_compression_astc_ldr
+ADDED from Z:\app\src\main\AndroidManifest.xml:101:3-77
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:101:24-74
+uses-feature#android.hardware.vr.headtracking
+ADDED from Z:\app\src\main\AndroidManifest.xml:102:3-124
+	android:version
+		ADDED from Z:\app\src\main\AndroidManifest.xml:102:65-84
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:102:109-121
+	android:required
+		ADDED from Z:\app\src\main\AndroidManifest.xml:102:85-108
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:102:17-64
+uses-permission#com.oculus.permission.EYE_TRACKING
+ADDED from Z:\app\src\main\AndroidManifest.xml:103:3-85
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:103:70-82
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:103:20-69
+uses-feature#oculus.software.eye_tracking
+ADDED from Z:\app\src\main\AndroidManifest.xml:104:3-101
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:104:86-98
+	android:required
+		ADDED from Z:\app\src\main\AndroidManifest.xml:104:61-85
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:104:17-60
+uses-permission#com.oculus.permission.BODY_TRACKING
+ADDED from Z:\app\src\main\AndroidManifest.xml:105:3-86
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:105:71-83
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:105:20-70
+uses-feature#com.oculus.software.body_tracking
+ADDED from Z:\app\src\main\AndroidManifest.xml:106:3-105
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:106:90-102
+	android:required
+		ADDED from Z:\app\src\main\AndroidManifest.xml:106:66-89
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:106:17-65
+uses-permission#com.oculus.permission.FACE_TRACKING
+ADDED from Z:\app\src\main\AndroidManifest.xml:107:3-86
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:107:71-83
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:107:20-70
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from Z:\app\src\main\AndroidManifest.xml:108:3-82
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:108:67-79
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:108:20-66
+uses-feature#oculus.software.face_tracking
+ADDED from Z:\app\src\main\AndroidManifest.xml:109:3-101
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:109:86-98
+	android:required
+		ADDED from Z:\app\src\main\AndroidManifest.xml:109:62-85
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:109:17-61
+uses-feature#android.hardware.usb.host
+ADDED from Z:\app\src\main\AndroidManifest.xml:110:3-73
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:110:58-70
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:110:17-57
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from Z:\app\src\main\AndroidManifest.xml:111:3-87
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:111:73-84
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:111:20-72
+uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
+ADDED from Z:\app\src\main\AndroidManifest.xml:112:3-97
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:112:83-94
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:112:20-82
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from Z:\app\src\main\AndroidManifest.xml:113:3-87
+	__line
+		ADDED from Z:\app\src\main\AndroidManifest.xml:113:73-84
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:113:20-72
+uses-sdk
+INJECTED from Z:\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [:downloader_library] Z:\downloader_library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-43
+MERGED from [:downloader_library] Z:\downloader_library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-43
+MERGED from [:permission_library] Z:\permission_library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_library] Z:\permission_library\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\eac3973f25233c102521c06b2f987e0f\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\eac3973f25233c102521c06b2f987e0f\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\30891a14132f501b0723920f18972b1c\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\30891a14132f501b0723920f18972b1c\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\5746758fe4fe6d736fbc196377e5d59a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\5746758fe4fe6d736fbc196377e5d59a\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\74eba0adaacfc1f267316044ba3fb635\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\74eba0adaacfc1f267316044ba3fb635\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Zheny\.gradle\caches\transforms-3\367282022f9d7e1276c2097aaa9ba6aa\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Zheny\.gradle\caches\transforms-3\367282022f9d7e1276c2097aaa9ba6aa\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\f5bcbc293cb5567f794e3dbf7fc28024\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\f5bcbc293cb5567f794e3dbf7fc28024\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\7fae42d38903fc3cc638a896827515eb\transformed\jetified-play-services-drive-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\7fae42d38903fc3cc638a896827515eb\transformed\jetified-play-services-drive-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\2cf03844490b7518ec0cc15b7be6ecd0\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\2cf03844490b7518ec0cc15b7be6ecd0\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\44d66019629001601723e3e8e6792438\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\44d66019629001601723e3e8e6792438\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\c493200c9b92294ea8ce20437c4acbe2\transformed\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\c493200c9b92294ea8ce20437c4acbe2\transformed\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\5eff1425e4617f572a315b3a04b185a4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\5eff1425e4617f572a315b3a04b185a4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\bf2a6d46c92d2b1b015ce44f75d834ab\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\bf2a6d46c92d2b1b015ce44f75d834ab\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\f4e7914e58ba093567760f9d22f3626d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\f4e7914e58ba093567760f9d22f3626d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\9bfe4cd74c7605dc19710fff72651570\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\9bfe4cd74c7605dc19710fff72651570\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\f967ef6252e4ec79b8a489b7b97a4a74\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\f967ef6252e4ec79b8a489b7b97a4a74\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\abedd8388bdbd55803e370bace33339f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\abedd8388bdbd55803e370bace33339f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\5d6dbb7a2526cb46a310f1fa772a8328\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\5d6dbb7a2526cb46a310f1fa772a8328\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\c17573ade799759c56baf884a28f8de6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\c17573ade799759c56baf884a28f8de6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\064f6efcf72e45025c96c41bb0313fb3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\064f6efcf72e45025c96c41bb0313fb3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\3fa6512a9d4dee4adc600ab35404b8df\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\3fa6512a9d4dee4adc600ab35404b8df\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\bb581f0f45aa35f890c6008351162320\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\bb581f0f45aa35f890c6008351162320\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\62c5e7261b28a421717026579decefb0\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\62c5e7261b28a421717026579decefb0\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\859180bb677d07452d44209a6e122258\transformed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\859180bb677d07452d44209a6e122258\transformed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\788b2866ce1062b2ae316790421045ad\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\788b2866ce1062b2ae316790421045ad\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\dc51215a0ae0eec1cc8d2679f7af5fd0\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\dc51215a0ae0eec1cc8d2679f7af5fd0\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0] C:\Users\Zheny\.gradle\caches\transforms-3\87c712ceb280b89563e287f590257de7\transformed\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] C:\Users\Zheny\.gradle\caches\transforms-3\87c712ceb280b89563e287f590257de7\transformed\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\2365384ad980976d11b4bd9d48d00571\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\2365384ad980976d11b4bd9d48d00571\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\fec7b5094424e25e39c91a00aed3d59c\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\fec7b5094424e25e39c91a00aed3d59c\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\6267c6992e2233c007652c3911cd20a6\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\6267c6992e2233c007652c3911cd20a6\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\1cc85102e7151d173892b0265fd52a81\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\1cc85102e7151d173892b0265fd52a81\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\e5997fabb38117f197761b06c6e6a597\transformed\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\e5997fabb38117f197761b06c6e6a597\transformed\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\7bd9c161e6b92cb2ac16bb70e4dae038\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\7bd9c161e6b92cb2ac16bb70e4dae038\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\94c1e08774be1a91ac7aa4bf2cb72cb3\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\94c1e08774be1a91ac7aa4bf2cb72cb3\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\cfee952266597011e350226a145c4ff0\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\cfee952266597011e350226a145c4ff0\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\7fe601d2895f83772b336b15683697ae\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\7fe601d2895f83772b336b15683697ae\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\7a1ff5a23d45e8270cb10429ea4d29f7\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Zheny\.gradle\caches\transforms-3\7a1ff5a23d45e8270cb10429ea4d29f7\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\dc95db927df936e003ea23f2b843af5c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\dc95db927df936e003ea23f2b843af5c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\4a128805ae54552b7183634231e39ff5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\4a128805ae54552b7183634231e39ff5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\ae4109ec1e873f2074e4c3a60211a759\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\ae4109ec1e873f2074e4c3a60211a759\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\fe726d578f90e61f945e51ad06a99ee0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\fe726d578f90e61f945e51ad06a99ee0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Zheny\.gradle\caches\transforms-3\0184f6f0853732490b3792eefec53ffb\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+package#com.google.android.gms
+ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:8:9-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:8:18-55
+package#com.android.vending
+ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:9:9-55
+	android:name
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:9:18-52
+provider#com.google.android.gms.games.provider.PlayGamesInitProvider
+ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:13:9-17:38
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:15:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:16:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:17:13-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:14:13-87
+activity#com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity
+ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:19:9-22:62
+	android:exported
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:21:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:22:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:20:13-103
+meta-data#com.google.android.gms.games.version
+ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:24:9-26:62
+	android:value
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:26:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-games-v2:19.0.0] C:\Users\Zheny\.gradle\caches\transforms-3\1801f66260de0ac517c79c4ef2b1ee96\transformed\jetified-play-services-games-v2-19.0.0\AndroidManifest.xml:25:13-64
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Zheny\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Zheny\.gradle\caches\transforms-3\93cdecdf35e0ebb0a6747a982095a512\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

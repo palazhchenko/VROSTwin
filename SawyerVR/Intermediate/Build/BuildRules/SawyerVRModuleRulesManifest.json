@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\main\\Unreal\\SawyerVR\\Intermediate\\Source\\SawyerVR.Build.cs",
+		"C:\\main\\Unreal\\SawyerVR\\Intermediate\\Source\\SawyerVR.Target.cs",
+		"C:\\main\\Unreal\\SawyerVR\\Intermediate\\Source\\SawyerVRClient.Target.cs",
+		"C:\\main\\Unreal\\SawyerVR\\Intermediate\\Source\\SawyerVREditor.Target.cs",
+		"C:\\main\\Unreal\\SawyerVR\\Intermediate\\Source\\SawyerVRServer.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+android {
+	ndkPath = System.getenv("NDKROOT")
+	compileSdkVersion = COMPILE_SDK_VERSION.toInteger()
+	buildToolsVersion = BUILD_TOOLS_VERSION
+	defaultConfig {
+		minSdkVersion = 13
+		targetSdkVersion = 23
+	}
+}
+android {
+    namespace="com.google.vr.sdk.samples.permission"
+}
+dependencies {
+	implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+}
