@@ -73,3 +73,9 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+*.obb
+*.log
+*.ucas
+*.pak
+*.apk
+*.obb.*
